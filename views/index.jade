@@ -1,0 +1,8 @@
+//- index.jade is the child template;
+
+extends ./layouts/mainLayout
+
+include ../mixins/mixes
+
+block content
+  +generateEmailList(emails)
